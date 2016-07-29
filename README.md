@@ -2,6 +2,8 @@
 
 A JS game where you need to remember the name of all Pokémon (after choosing a generation). Created using only JS (and JQuery-min).
 
+This game is currently hosted at http://q4-group.com/pokemon-quiz/game.html
+
 Instructions:
  - Choose which generations do you want to play (one or more)
  - Choose how much time do you want (between 15 and 90 minutes)
