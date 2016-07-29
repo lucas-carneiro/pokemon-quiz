@@ -1,0 +1,46 @@
+<html>
+	<meta charset="UTF-8">
+	<head>
+		<title>Pok&#233;mon Quiz Game</title>
+	</head>
+	<body>
+		<script type="text/javascript" src="jquery-2.1.4.min.js"></script>
+		<script type="text/javascript" src="pokemon.js"></script>
+		Generations: <br>
+		<input type="checkbox" id="gen1">Gen 1 (Kanto)
+		<input type="checkbox" id="gen2">Gen 2 (Johto)
+		<input type="checkbox" id="gen3">Gen 3 (Hoenn)
+		<input type="checkbox" id="gen4">Gen 4 (Sinnoh)
+		<input type="checkbox" id="gen5">Gen 5 (Unova)
+		<input type="checkbox" id="gen6">Gen 6 (Kalos)<br><br>
+		Time: <select id="time">
+		  <option value="15">15 minutes</option>
+		  <option value="30">30 minutes</option>
+		  <option value="45">45 minutes</option>
+		  <option value="60">60 minutes</option>
+		  <option value="75">75 minutes</option>
+		  <option value="90">90 minutes</option>
+		</select><br><br>
+		Timer: <p id="timer">--</p>
+		Pok&#233;mon Name: <br>
+		<form>
+			<input type="text" autocomplete="off" id="pokemon" value="">
+		</form>
+		Pok&#233;mon Caught: <p id="nPokemon">--</p>
+		<p id="iconPokemon"></p>
+		<button type="button" id="reset">New Game</button>
+		<button type="button" id="giveUp">Give Up</button><br><br><br>
+		How to Play: <br>
+		Choose the generations you want to play and how much time you want. <br>
+		<b>To start playing, just type!</b> <br>
+		If you want to start a new game, press New Game. <br>
+		To give up, press Give Up. <br>
+		<b> Patterns: <br>
+		Nidoran (Male) = nidoranm <br>
+		Nidoran (Female) = nidoranf <br>
+		Flabébé = flabebe <br>
+		Type with special characters! (-, ', .) <br>
+		Type without spaces! </b>
+		<p>Good Luck, Pokémon Trainer!</p>
+	</body>
+</html>
